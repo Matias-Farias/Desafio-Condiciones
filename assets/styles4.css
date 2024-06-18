@@ -1,0 +1,33 @@
+.img-gallery {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: column;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.img-gallery li {
+    margin: 10px;
+    text-align: center; 
+}
+
+.img-gallery img {
+    width: 150px; 
+    height: 150px; 
+}
+
+.img-gallery span {
+    display: block;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:x-large;
+}
